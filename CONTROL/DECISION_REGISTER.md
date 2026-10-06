@@ -19,118 +19,32 @@ Stage: 2 — Final Document Architecture and Identifier Control
 | RES-09 | QSP_10 LAB placeholders | Known concrete candidates are SMJ/FRM/LAB/01/01 and SMJ/FRM/LAB/02/01 | Current Tier 4 inventory |
 | RES-10 | QSP_04 OPN placeholder | Concrete candidates are SMJ/FRM/OPN/01/01–04 | Four existing equipment forms |
 
-## Human decisions required before execution
+## Human decisions — APPROVED
 
-### DEC-01 — Moisture in Coal duplicate survivor
-Documents: SOP LAB/SOP-LAB-01-Moisture in Coal.docx and Tier 3-root SOP-LAB-01-Moisture in Coal.docx.
-Decision: select one active survivor or formally identify one as historical/obsolete.
-Evidence: same subject/apparent identifier; approval/revision/content comparison is not independently available through current connector.
-Recommended option: use approval, revision and effective-date evidence first; filename alone is insufficient.
-Risk: two active controlled documents for one method.
-Human decision: Yes.
+The following human decisions were provided by the project owner on 6 October 2026 and are now the approved architecture decisions for execution planning. Approval here changes CONTROL artifacts only; no controlled QMS document is modified in Stage 2.
 
-### DEC-02 — Volatile Matter duplicate survivor
-Documents: SOP LAB/SOP-LAB-02-Volatile Matter in Coal.docx and Tier 3-root copy.
-Decision: select one active survivor or formally archive one.
-Recommended option: approval/revision/content evidence first.
-Human decision: Yes.
-
-### DEC-03 — Total Ash duplicate survivor
-Documents: SOP LAB/SOP-LAB-03-Total Ash in Coal.docx and Tier 3-root copy.
-Decision: select one active survivor or formally archive one.
-Recommended option: approval/revision/content evidence first.
-Human decision: Yes.
-
-### DEC-04 — Risk Register duplicate
-Documents: FRM-SYS-17 - Risk Register.docx and FRM-SYS-17 - Risk Register new.docx.
-Decision: select the authoritative active file, consolidate useful content if necessary, and retain history only where justified.
-Evidence: same apparent identifier; 'new' is not proof of controlled status.
-Human decision: Yes.
-
-### DEC-05 — HRD-04 competence architecture
-Documents: FRM-HRD-04 - Employees Competence Report.docx and FRM_HRD_04_Personnel Competence Record.docx.
-Decision: consolidate or prove two distinct roles (e.g. summary matrix versus detailed record) and then assign distinct identifiers if needed.
-Evidence: overlapping identity/subject; detailed function distinction requires content review.
-Human decision: Yes.
-
-### DEC-06 — Format-pair control model
-Documents: QCD-02 DOCX/PDF, QCD-04 XLSX, RPT-01 DOCX/XLSX.
-Decision: define whether each file is a controlled template, calculation workbook, generated output or record.
-Recommended option: one logical controlled identity per controlled function; outputs are not automatically second templates.
-Human decision: Yes.
-
-### DEC-07 — MKT complaint versus feedback
-Documents: FRM_MKT_01 Customer Feedback Form.docx; FRM_MKT_02 Complaint Report Format.docx.
-Decision: maintain distinct complaint and feedback functions with unique IDs; likely feedback MKT/01 and complaint MKT/02, subject to content confirmation.
-Evidence: QSP_14 expects MKT/02, while prior content audit reports the complaint document internally carries MKT/01.
-Human decision: Yes.
-
-### DEC-08 — Internal Audit Program architecture
-Documents: Internal Audit Program.docx, Internal Audit Plan.docx, Master List expectation for SOP-SYS-09.
-Decision: determine whether the existing unnumbered Program is the Tier 3 process document or a Tier 4 programme/record requiring a separate SOP-SYS-09.
-Recommended option: separate process SOP from annual programme/plan only if current content does not already fulfil the process SOP function.
-Human decision: Yes.
-
-### DEC-09 — Corrective-action record identifier
-Issue: inconsistent SYS/03 versus SYS/04 corrective-action references.
-Decision: select the identifier established by the approved current form/function after comparison.
-Human decision: Yes.
-
-### DEC-10 — Calibration schedule identity
-Issue: Quality Manual reportedly references SYS/10, but no matching current file exists.
-Decision: confirm whether EXB-SYS-01 plus equipment calibration records are sufficient, or whether a separate controlled schedule is needed.
-Human decision: Yes if a separate schedule is required.
-
-### DEC-11 — Master List authority
-Issue: baseline reports divergence between the Master List and the live file tree.
-Decision: accept the Stage 2 Final Document Register as the architecture worklist; update the controlled Master List only during later execution after human approval.
-Human decision: Yes for final controlled Master List acceptance.
-
-### DEC-12 — Dedicated procurement Tier 3 SOP
-Issue: QSP_08 exists but no dedicated procurement SOP is present.
-Recommended architecture: retain procurement control at QSP_08 and use Tier 4 records unless actual laboratory content proves a separate Tier 3 SOP is necessary.
-Human decision: Only if laboratory implementation requires a separate operational procedure.
-
-### DEC-13 — Method validation/verification record architecture
-Issue: MTH/01, MTH/02 and validated-method list are referenced but absent.
-Recommended architecture: separate validation report, verification report and approved-method list unless actual control design proves a combined record sufficient.
-Human decision: Yes before creation.
-
-### DEC-14 — Equipment intermediate-check architecture
-Issue: QCD/05 is referenced but absent.
-Recommended architecture: one common controlled record only if it supports all applicable equipment; otherwise distinct records by equipment family.
-Human decision: Yes before creation.
-
-### DEC-15 — Sampling evidence architecture
-Issue: COC, inward register and receipt checklist exist, but field/preservation evidence is not clearly closed.
-Decision: inspect those existing records first; create separate field/preservation records only for evidence that remains unsupported.
-Human decision: Yes.
-
-### DEC-16 — PT/ILC evidence
-Issue: QSP_12 addresses PT/ILC but no dedicated evidence mechanism is apparent.
-Decision: establish a controlled PT/ILC record where applicable unless another existing QC record demonstrably fulfils the function.
-Human decision: Yes.
-
-### DEC-17 — Management-review evidence
-Issue: QSP_21 reportedly references SYS/14 but no file exists.
-Decision: approve final management-review minutes record identifier before creation.
-Human decision: Yes.
-
-### DEC-18 — Internal-audit evidence
-Issue: QSP_20 reportedly references SYS/07 but no file exists.
-Decision: approve final audit-record identity after DEC-08.
-Human decision: Yes.
-
-### DEC-19 — External standards register
-Issue: external standards are referenced, but a standalone register is not conclusively required by current evidence.
-Decision: determine whether Master List/external-reference controls are sufficient before creating a separate register.
-Human decision: Yes.
-
-### DEC-20 — Word lock file
-Issue: ~$P_06_Traceability of Measurements.docx.
-Resolution: no controlled ID; remove from active tree in a later execution run. No architecture change to controlled documents.
-Human decision: No.
+| ID | Approved decision |
+|---|---|
+| DEC-01 | Keep the Moisture in Coal SOP located in `SOP LAB/` as the active survivor. The duplicate Tier 3-root copy is to be removed from the active controlled tree during execution, subject to retention rules. |
+| DEC-02 | Keep the Volatile Matter in Coal SOP located in `SOP LAB/` as the active survivor. The duplicate Tier 3-root copy is to be removed from the active controlled tree during execution, subject to retention rules. |
+| DEC-03 | Keep the Total Ash in Coal SOP located in `SOP LAB/` as the active survivor. The duplicate Tier 3-root copy is to be removed from the active controlled tree during execution, subject to retention rules. |
+| DEC-04 | Keep `FRM-SYS-17 - Risk Register new.docx` as the authoritative active Risk Register. The other `FRM-SYS-17` file is to be dispositioned as the non-authoritative duplicate during execution. |
+| DEC-05 | Both existing HRD-04 competence documents are considered obsolete for the final architecture. Create a new competence document later. For the interim, keep `FRM_HRD_04_Personnel Competence Record.docx` available until the replacement is created and approved. |
+| DEC-06 | Keep the DOCX as the controlled master/template for the applicable document function(s). PDF is not a second master document; it may remain only as issued/generated output where operationally required. XLSX is not treated as a separate controlled master unless its independent operational role is explicitly established. |
+| DEC-07 | `SMJ/FRM/MKT/01` = Customer Feedback; `SMJ/FRM/MKT/02` = Complaint Report. The complaint form's internal identifier is to be corrected to MKT/02 during execution. |
+| DEC-08 | Create `SMJ/SOP/SYS/09` as the operational internal-audit procedure. Keep Internal Audit Program as the planning/programme document and Internal Audit Plan as the individual-audit planning document. |
+| DEC-09 | `SMJ/FRM/SYS/04` = Corrective Action Report. All conflicting corrective-action references are to be reconciled to this identifier during execution. |
+| DEC-10 | Keep `EXB-SYS-01` for calibration rules/frequency and create `SMJ/FRM/SYS/10` as the actual equipment calibration schedule/register. |
+| DEC-11 | Approve the reconciled Master List architecture as the authoritative document-control architecture before controlled-document execution. |
+| DEC-12 | No dedicated procurement Tier 3 SOP unless the actual laboratory workflow demonstrates a need for a lower-level implementation document. |
+| DEC-13 | The laboratory does not perform method validation. Create `SMJ/FRM/MTH/01` as the Method Verification Report. Do not create a separate Method Validation Report for this laboratory architecture. A validated/approved methods list remains a separate control if needed. |
+| DEC-14 | Create one generic `SMJ/FRM/QCD/05` equipment intermediate-check record containing: Equipment ID, Equipment type, Parameter checked, Reference value, Observed value, Acceptance criterion, Result, Date, Performed by, Reviewed by, and Action for failure. |
+| DEC-15 | Prefer an integrated sampling/COC architecture where practical; create separate preservation/transport records only where required by the actual laboratory process and not already captured. |
+| DEC-16 | Establish a dedicated controlled PT/ILC evidence record. Exact identifier is to be assigned consistently with the approved QCD namespace during execution. |
+| DEC-17 | `SMJ/FRM/SYS/14` = Management Review Record/Minutes. |
+| DEC-18 | `SMJ/FRM/SYS/07` = Internal Audit Record. This is separate from the audit programme and individual audit plan. |
+| DEC-19 | Establish a dedicated External Standards Register as a controlled external-reference register. |
 
 ## Execution gate
 
-Mass editing must not start while any active-document identity remains ambiguous. Later agents must use FINAL_DOCUMENT_REGISTER.xlsx plus this register and the migration plan as the authoritative architecture worklist.
+Mass editing may begin only against the approved decisions above and the frozen Final Document Register. Execution agents must use FINAL_DOCUMENT_REGISTER.xlsx, this register, and the migration plan as the authoritative architecture worklist. CONTROL artifacts may be updated during execution planning; controlled QMS documents are to be modified only under the approved execution stage.
