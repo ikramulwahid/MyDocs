@@ -63,7 +63,7 @@ All QSP_00–QSP_22 files retain their existing QSP sequence and map to SMJ/QSP/
 | Calorific Value in Solid Biofuels | SMJ/SOP/LAB/01/07 |
 | Moisture Content in Solid Biofuels | SMJ/SOP/LAB/01/08 |
 
-The physical duplicate copies of Laboratory SOPs 01–03 cannot both receive active final IDs. Their rows are UNRESOLVED in the final register pending DEC-01–DEC-03.
+The physical duplicate copies of Laboratory SOPs 01–03 cannot both receive active final IDs. DEC-01–DEC-03 approve the copies located in `SOP LAB/` as the active survivors; the Tier 3-root duplicates are execution dispositions, not second active IDs.
 
 ### Tier 4 — established final IDs
 
@@ -84,13 +84,13 @@ The physical duplicate copies of Laboratory SOPs 01–03 cannot both receive act
 | FRM_OPN_03_01_Final Worksheet - Coal.docx | SMJ/FRM/OPN/03/01 |
 | FRM_QCD_01_Internal Quality Control Plan.docx | SMJ/FRM/QCD/01 |
 | FRM_QCD_03_UoM - Coal.xlsx | SMJ/FRM/QCD/03 |
-| FRM_QCD_04_Re-test report – Coal.xlsx | SMJ/FRM/QCD/04 (provisional) |
+| FRM_QCD_04_Re-test report – Coal.xlsx | SMJ/FRM/QCD/04 (non-master operational XLSX; final role governed by DEC-06) |
 | FRM_QCD_06 - Environment Condition Monitoring Report.xlsx | SMJ/FRM/QCD/06 |
 | FRM_QCD_07_MVR-Coal.xlsx | SMJ/FRM/QCD/07 |
 | FRM_QCD_09_CRM Consumption Report.docx | SMJ/FRM/QCD/09 |
 | FRM_QCD_10_Reference Material Log.docx | SMJ/FRM/QCD/10 |
 
-### Final IDs requiring human decision
+### Final IDs — updated by approved decisions
 
 | Group | Reason | Decision |
 |---|---|---|
@@ -102,6 +102,26 @@ The physical duplicate copies of Laboratory SOPs 01–03 cannot both receive act
 | Internal Audit Program | Existing unnumbered program versus expected SOP-SYS-09 | DEC-08 |
 | Internal Audit Plan | Uncoded file; final identifier requires role determination | DEC-08 |
 
-### Non-document artifacts
+#### Approved mappings arising from human decisions
+
+| Function / document | Approved treatment |
+|---|---|
+| Moisture in Coal | Active survivor = file in `SOP LAB/`; duplicate root copy is not an active controlled document |
+| Volatile Matter in Coal | Active survivor = file in `SOP LAB/`; duplicate root copy is not an active controlled document |
+| Total Ash in Coal | Active survivor = file in `SOP LAB/`; duplicate root copy is not an active controlled document |
+| Risk Register | Active survivor = `FRM-SYS-17 - Risk Register new.docx` |
+| HRD-04 competence | Existing pair obsolete for final architecture; new competence document required; `FRM_HRD_04_Personnel Competence Record.docx` retained only as interim |
+| Customer Feedback | `SMJ/FRM/MKT/01` |
+| Complaint Report | `SMJ/FRM/MKT/02` |
+| Corrective Action Report | `SMJ/FRM/SYS/04` |
+| Calibration rules/frequency | `SMJ/EXB/SYS/01` |
+| Equipment calibration schedule/register | `SMJ/FRM/SYS/10` |
+| Method Verification Report | `SMJ/FRM/MTH/01` |
+| Internal Audit procedure | `SMJ/SOP/SYS/09` |
+| Internal Audit Record | `SMJ/FRM/SYS/07` |
+| Management Review Record/Minutes | `SMJ/FRM/SYS/14` |
+| Equipment Intermediate Check Record | `SMJ/FRM/QCD/05` |
+| External Standards Register | Dedicated controlled register; final ID TBD |
+## Non-document artifacts
 
 The Word lock file has no controlled identifier and is proposed for REMOVE_FROM_ACTIVE_TREE in a later execution run. CONTROL markdown files and .gitignore are repository-control artifacts, not QMS controlled documents.
